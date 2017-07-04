@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/zenaki/AndroidStudioProjects/TestWebSocket/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/zenaki/AndroidStudioProjects/TestWebSocket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d0ac9dba06af585c6596f1afd79fa1e2166ae8ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/zenaki/AndroidStudioProjects/TestWebSocket/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="553cc4b5ed9ea0b83b8f7dc37b2f648dd472d2dc">
+        <dex dex="/home/zenaki/AndroidStudioProjects/TestWebSocket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b986776e6558097aee32ffc89466a620378281d5/classes.dex" />
+    </item>
+
+</items>
