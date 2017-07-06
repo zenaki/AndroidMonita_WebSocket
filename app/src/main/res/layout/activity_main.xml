@@ -53,14 +53,6 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/data_viewer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Data Viewer"
-                    android:inputType="textMultiLine" />
-
-                <EditText
                     android:id="@+id/message"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -74,6 +66,100 @@
                     android:enabled="false"
                     android:text="Send"
                     android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TableLayout
+                            android:id="@+id/tb_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbarAlwaysDrawVerticalTrack="true">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/header_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="No" />
+
+                                <TextView
+                                    android:id="@+id/header_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Epochtime" />
+
+                                <TextView
+                                    android:id="@+id/header_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Nama TU" />
+
+                                <TextView
+                                    android:id="@+id/header_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Serial Number" />
+
+                                <TextView
+                                    android:id="@+id/header_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Titik Ukur" />
+
+                                <TextView
+                                    android:id="@+id/header_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="5dp"
+                                    android:text="Value" />
+
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <EditText
+                    android:id="@+id/data_viewer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Data Viewer"
+                    android:inputType="textMultiLine" />
+
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
